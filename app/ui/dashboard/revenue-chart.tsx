@@ -1,7 +1,5 @@
-import { generateYAxis } from '@/app/lib/utils';
-import { CalendarIcon } from '@heroicons/react/24/outline';
-import { lusitana } from '@/app/ui/fonts';
 import { Revenue } from '@/app/lib/definitions';
+import { lusitana } from '@/app/ui/fonts';
 
 // This component is representational only.
 // For data visualization UI, check out:
@@ -10,10 +8,12 @@ import { Revenue } from '@/app/lib/definitions';
 // https://airbnb.io/visx/
 
 export default async function RevenueChart({
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   revenue,
 }: {
   revenue: Revenue[];
 }) {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const chartHeight = 350;
   // NOTE: comment in this code when you get to this point in the course
 

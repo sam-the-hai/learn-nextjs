@@ -3,8 +3,8 @@
 import { ArrowLeftIcon, ArrowRightIcon } from '@heroicons/react/24/outline';
 import clsx from 'clsx';
 import Link from 'next/link';
-import { generatePagination } from '@/app/lib/utils';
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export default function Pagination({ totalPages }: { totalPages: number }) {
   // NOTE: comment in this code when you get to this point in the course
 
@@ -52,6 +52,7 @@ export default function Pagination({ totalPages }: { totalPages: number }) {
   );
 }
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 function PaginationNumber({
   page,
   href,
@@ -83,6 +84,7 @@ function PaginationNumber({
   );
 }
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 function PaginationArrow({
   href,
   direction,

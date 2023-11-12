@@ -2,6 +2,7 @@ import { LatestInvoice } from '@/app/lib/definitions';
 import { lusitana } from '@/app/ui/fonts';
 import { ArrowPathIcon } from '@heroicons/react/24/outline';
 export default async function LatestInvoices({
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   latestInvoices,
 }: {
   latestInvoices: LatestInvoice[];
